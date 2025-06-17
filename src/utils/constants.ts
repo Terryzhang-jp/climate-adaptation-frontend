@@ -1,7 +1,7 @@
 import { LineChartIndicator, AdaptationStrategy } from '@/types/simulation';
 
 // Backend URL configuration
-export const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL || "http://localhost:8000";
+export const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL || "https://web-production-0b0f.up.railway.app";
 
 // Simulation configuration
 export const SIMULATION_YEARS = 25;
